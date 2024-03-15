@@ -14,6 +14,13 @@
 		4E8409FB2BA4BF320086B06D /* TinyBeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8409FA2BA4BF320086B06D /* TinyBeansTests.swift */; };
 		4E840A052BA4BF320086B06D /* TinyBeansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A042BA4BF320086B06D /* TinyBeansUITests.swift */; };
 		4E840A072BA4BF320086B06D /* TinyBeansUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A062BA4BF320086B06D /* TinyBeansUITestsLaunchTests.swift */; };
+		4E840A162BA4CC980086B06D /* RemoteMovie+Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E840A152BA4CC980086B06D /* RemoteMovie+Mock.json */; };
+		4E840A1A2BA4CCF70086B06D /* RemoteMovieDetail_Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E840A192BA4CCF70086B06D /* RemoteMovieDetail_Mock.json */; };
+		4E840A1D2BA4CD320086B06D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A1C2BA4CD320086B06D /* Utilities.swift */; };
+		4E840A212BA4D8C60086B06D /* RemoteMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A202BA4D8C60086B06D /* RemoteMovie.swift */; };
+		4E840A232BA4D92B0086B06D /* RemoteMovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A222BA4D92B0086B06D /* RemoteMovieDetails.swift */; };
+		4E840A252BA4D95B0086B06D /* MovieClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A242BA4D95B0086B06D /* MovieClient.swift */; };
+		4E840A272BA4D9870086B06D /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E840A262BA4D9870086B06D /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		4E840A002BA4BF320086B06D /* TinyBeansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBeansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E840A042BA4BF320086B06D /* TinyBeansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansUITests.swift; sourceTree = "<group>"; };
 		4E840A062BA4BF320086B06D /* TinyBeansUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E840A152BA4CC980086B06D /* RemoteMovie+Mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "RemoteMovie+Mock.json"; sourceTree = "<group>"; };
+		4E840A192BA4CCF70086B06D /* RemoteMovieDetail_Mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RemoteMovieDetail_Mock.json; sourceTree = "<group>"; };
+		4E840A1C2BA4CD320086B06D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4E840A202BA4D8C60086B06D /* RemoteMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovie.swift; sourceTree = "<group>"; };
+		4E840A222BA4D92B0086B06D /* RemoteMovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovieDetails.swift; sourceTree = "<group>"; };
+		4E840A242BA4D95B0086B06D /* MovieClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClient.swift; sourceTree = "<group>"; };
+		4E840A262BA4D9870086B06D /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,14 @@
 		4E8409E82BA4BF300086B06D /* TinyBeans */ = {
 			isa = PBXGroup;
 			children = (
+				4E840A1B2BA4CD020086B06D /* Mock */,
+				4E840A202BA4D8C60086B06D /* RemoteMovie.swift */,
+				4E840A1C2BA4CD320086B06D /* Utilities.swift */,
 				4E8409E92BA4BF300086B06D /* TinyBeansApp.swift */,
 				4E8409EB2BA4BF300086B06D /* ContentView.swift */,
+				4E840A222BA4D92B0086B06D /* RemoteMovieDetails.swift */,
+				4E840A242BA4D95B0086B06D /* MovieClient.swift */,
+				4E840A262BA4D9870086B06D /* MovieDetailView.swift */,
 				4E8409ED2BA4BF320086B06D /* Assets.xcassets */,
 				4E8409EF2BA4BF320086B06D /* Preview Content */,
 			);
@@ -125,6 +145,15 @@
 				4E840A062BA4BF320086B06D /* TinyBeansUITestsLaunchTests.swift */,
 			);
 			path = TinyBeansUITests;
+			sourceTree = "<group>";
+		};
+		4E840A1B2BA4CD020086B06D /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4E840A152BA4CC980086B06D /* RemoteMovie+Mock.json */,
+				4E840A192BA4CCF70086B06D /* RemoteMovieDetail_Mock.json */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8409F12BA4BF320086B06D /* Preview Assets.xcassets in Resources */,
+				4E840A162BA4CC980086B06D /* RemoteMovie+Mock.json in Resources */,
 				4E8409EE2BA4BF320086B06D /* Assets.xcassets in Resources */,
+				4E840A1A2BA4CCF70086B06D /* RemoteMovieDetail_Mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E840A212BA4D8C60086B06D /* RemoteMovie.swift in Sources */,
+				4E840A252BA4D95B0086B06D /* MovieClient.swift in Sources */,
+				4E840A1D2BA4CD320086B06D /* Utilities.swift in Sources */,
 				4E8409EC2BA4BF300086B06D /* ContentView.swift in Sources */,
 				4E8409EA2BA4BF300086B06D /* TinyBeansApp.swift in Sources */,
+				4E840A232BA4D92B0086B06D /* RemoteMovieDetails.swift in Sources */,
+				4E840A272BA4D9870086B06D /* MovieDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,14 +4,25 @@
 //
 //  Created by Jian Ma on 3/15/24.
 //
-
 import SwiftUI
 
 @main
-struct TinyBeansApp: App {
+struct TinyBeans: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            Text("skja")
+//            ContentView()
+            
+            NavigationStack {
+                ContentView(
+                    viewModel: ContentView.ViewModel(
+//                        client: .mock
+                        client: .live(apiKey: apiKey)
+//                                    client: .live(apiKey: apiKey)
+                    )
+                )
+                
+            }
         }
     }
 }

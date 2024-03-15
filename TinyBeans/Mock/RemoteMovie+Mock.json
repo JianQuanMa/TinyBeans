@@ -1,0 +1,74 @@
+{
+  "runtime" : 139,
+  "status" : "Released",
+  "backdrop_path" : "\/xvk5AhfhgQcTuaCQyq3XqAnhEma.jpg",
+  "overview" : "When the plots of reclusive author Elly Conway's fictional espionage novels begin to mirror the covert actions of a real-life spy organization, quiet evenings at home become a thing of the past. Accompanied by her cat Alfie and Aiden, a cat-allergic spy, Elly races across the world to stay one step ahead of the killers as the line between Conway's fictional world and her real one begins to blur.",
+  "title" : "Argylle",
+  "vote_count" : 531,
+  "tagline" : "The greater the spy, the bigger the lie.",
+  "belongs_to_collection" : null,
+  "original_title" : "Argylle",
+  "original_language" : "en",
+  "poster_path" : "\/95VlSEfLMqeX36UVcHJuNlWEpwf.jpg",
+  "production_countries" : [
+    {
+      "name" : "United Kingdom",
+      "iso_3166_1" : "GB"
+    },
+    {
+      "name" : "United States of America",
+      "iso_3166_1" : "US"
+    }
+  ],
+  "revenue" : 94623605,
+  "homepage" : "https:\/\/www.argyllemovie.com",
+  "video" : false,
+  "imdb_id" : "tt15009428",
+  "id" : 848538,
+  "release_date" : "2024-01-31",
+  "budget" : 200000000,
+  "popularity" : 1445.9100000000001,
+  "genres" : [
+    {
+      "id" : 28,
+      "name" : "Action"
+    },
+    {
+      "id" : 12,
+      "name" : "Adventure"
+    },
+    {
+      "id" : 35,
+      "name" : "Comedy"
+    }
+  ],
+  "production_companies" : [
+    {
+      "logo_path" : "\/pMUiImmYANjZUlZFiZMWziQDSs6.png",
+      "id" : 5374,
+      "origin_country" : "GB",
+      "name" : "Marv"
+    },
+    {
+      "logo_path" : "\/oE7H93u8sy5vvW5EH3fpCp68vvB.png",
+      "id" : 194232,
+      "origin_country" : "US",
+      "name" : "Apple Studios"
+    },
+    {
+      "logo_path" : null,
+      "id" : 78995,
+      "origin_country" : "GB",
+      "name" : "Cloudy Productions"
+    }
+  ],
+  "adult" : false,
+  "spoken_languages" : [
+    {
+      "english_name" : "English",
+      "name" : "English",
+      "iso_639_1" : "en"
+    }
+  ],
+  "vote_average" : 6.117
+}
