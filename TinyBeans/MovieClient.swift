@@ -43,9 +43,6 @@ struct MovieClient {
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         return .init(
             fetchPopluarList: { page in
-//                throw NSError(domain: "Network failure", code: -1)
-//                try await Task.sleep(for: .seconds(2))
-//                throw URLError(.badURL)
                 print("-=- fetchPopluarList \(page)")
                 guard let url = URL(string: "https://api.themoviedb.org/3/movie/popular?language=en-US&page=\(page)") else {
                     throw URLError(.badURL)
